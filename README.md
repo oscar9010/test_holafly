@@ -1,6 +1,6 @@
 # Instrucciones
 ## Creación del servidor JSON
-Esta prueba técnica se desarrolló usando JSON Server el cual fue instalado con el comando “npm install -g json-server” y se inicializa usando el puerto 3001 con el comando “json-server --watch db.json --port 3001”, allí se debe alojar  el archivo Json aportado y se realizan las peticiones siguiendo la url <http://localhost:3001/kittens>.
+Esta prueba técnica se desarrolló usando JSON Server el cual fue instalado con el comando “npm install -g json-server” y se inicializa usando el puerto 3001 con el comando “json-server --watch db.json --port 3001”, allí se debe alojar  el archivo Json aportado en la carpeta raiz con nombre **db.json** y se realizan las peticiones siguiendo la url <http://localhost:3001/kittens>.
 ## Tecnologías usadas
 
 Se instaló node.js en su versión 18.14.0 para configurar el JSON server
