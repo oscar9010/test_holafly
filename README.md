@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Instrucciones
+## Creación del servidor JSON
+Esta prueba técnica se desarrolló usando JSON Server el cual fue instalado con el comando “npm install -g json-server” y se inicializa usando el puerto 3001 con el comando “json-server --watch db.json --port 3001”, allí se debe alojar  el archivo Json aportado y se realizan las peticiones siguiendo la url <http://localhost:3001/kittens>.
+## Tecnologías usadas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Se instaló node.js en su versión 18.14.0 para configurar el JSON server
 
-## Available Scripts
+Se hizo uso del framework Boostrap en versión 5.0.2, además de código CSS, se usó "react-router-dom” en su versión 5.3.0 y React en su versión 18.2.0.
 
-In the project directory, you can run:
+Para la creación de la aplicación se realizo con el comando **create-react-app kittens** y se inicializa el servidor con el comando npm start en el puerto 3000.
 
-### `npm start`
+**Observación**: debido a un bug que no me dio tiempo de investigar la solución, al momento de realizar el cambio de página se envían los parámetros a la URL pero no refresca el VDOM. Es necesario presionar F5 para ver los cambios.
+# Instructions
+## JSON server creation
+This dev test was developed using a Json server which was installed with the command “npm install -g json-server” and initialized using port 3001 with the command “json-server --watch db.json --port 3001”, The Json file provided must be hosted there and requests are made following the url http://localhost:3001/kittens.
+## Used technologies
+The Bootstrap framework was used in version 5.0.2, in addition to CSS code, "react-router-dom" was used in version 5.3.0 and React in version 18.2.0.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To create the application, it was done with the create-react-app kittens command and the server is initialized with the npm start command on port 3000.

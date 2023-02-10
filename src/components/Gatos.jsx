@@ -24,7 +24,7 @@ const Gatos = () => {
                       <h5 className='name'>{item.name}</h5>
                       <h5 className='card-title'>{item.age}</h5>
                       <Route >
-                      <Link className="card-title btn btn-outline-secondary push" to={`/Gatos/${item.id}`}>See more about {item.name}</Link>
+                      <Link className="card-title btn btn-outline-secondary CTA" to={`/Gatos/${item.id}`}>See more about {item.name}</Link>
                       </Route>
                     </div>
                   </div>
