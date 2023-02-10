@@ -1,0 +1,85 @@
+.image_card{
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+}
+
+.head{
+    color:  #e4445c ;
+    font-size: x-large ;
+    font-weight: bolder;
+    max-width: 100%;
+}
+
+.head:hover{
+    color: black;
+}
+
+.title{
+    color:  #e4445c ;
+    text-align: center;
+}
+
+.square{
+    -webkit-box-shadow: 11px 23px 29px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 23px 29px -4px rgba(0,0,0,0.75);
+    box-shadow: 11px 23px 29px -4px rgba(0,0,0,0.75);
+    border-style: none;
+    border-top-right-radius: 20%;
+    border-top-left-radius: 20%;
+    max-width: fit-content;
+}
+
+.name{
+    font-size: 30px;
+    color: #e4445c;
+}
+
+.CTA{
+    border-color:#e4445c;
+    text-align: center;
+    margin-left: 13%;
+}
+
+.CTA:hover{
+    background-color: bisque;
+    color: black;
+}
+
+.card_only{
+    border-radius: 50%;
+    margin-top: 10%;
+    max-width: -webkit-fill-available;
+    margin: 15px;
+}
+
+.cat_title{
+    color: #e4445c;
+}
+.presentation{
+    border:#e4445c;
+    border-radius: 5%;
+    background-color: bisque;
+    width: 80%;
+    margin: 15px auto;
+    -webkit-box-shadow: 11px 23px 29px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 23px 29px -4px rgba(0,0,0,0.75);
+    box-shadow: 11px 23px 29px -4px rgba(0,0,0,0.75);
+}
+
+.age{
+    margin-bottom: 0%;
+}
+
+.gender{
+    margin-bottom: 0%;
+    margin-top: 2%;
+}
+
+.main{
+    text-align: -webkit-center;
+}
+
+.card-body > .btn{
+    width: -webkit-fill-available;
+    margin: 0 15px;
+}
