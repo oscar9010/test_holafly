@@ -14,7 +14,7 @@ Para la creación de la aplicación se realizo con el comando **create-react-app
  oscardev9010/kittens
 ## Observaciones
  
-Se debe realizar la instalacion del JSON server npm install -g json-server y poner el archivo db.json en la carpeta raiz del server JSON, e inciar el server json-server --watch db.json --port 3001.
+Se debe realizar la instalacion del JSON server npm install -g json-server, luego copiar el archivo db.json en la carpeta raiz del server JSON, e inciar el server json-server --watch db.json --port 3001.
 
 
 
