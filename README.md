@@ -12,6 +12,9 @@ Para la creación de la aplicación se realizo con el comando **create-react-app
 ## Repositorio Docker
 
  oscardev9010/kittens
+## Observaciones
+ 
+Se debe realizar la instalacion del JSON server npm install -g json-server y poner el archivo db.json en la carpeta raiz del server JSON, e inciar el server json-server --watch db.json --port 3001.
 
 
 
@@ -22,3 +25,11 @@ This dev test was developed using a Json server which was installed with the com
 The Bootstrap framework was used in version 5.0.2, in addition to CSS code, "react-router-dom" was used in version 5.3.0 and React in version 18.2.0.
 
 To create the application, it was done with the create-react-app kittens command and the server is initialized with the npm start command on port 3000.
+
+## Docker repository
+
+ oscardev9010/kittens
+ 
+ ## Observations
+ 
+You must install the JSON server npm install -g json-server and put the db.json file in the root folder of the JSON server, and start the server json-server --watch db.json --port 3001.
