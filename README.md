@@ -9,6 +9,12 @@ Se hizo uso del framework Boostrap en versión 5.0.2, además de código CSS, se
 
 Para la creación de la aplicación se realizo con el comando **create-react-app kittens** y se inicializa el servidor con el comando npm start en el puerto 3000.
 
+## Repositorio Docker
+
+ oscardev9010/kittens
+
+
+
 # Instructions
 ## JSON server creation
 This dev test was developed using a Json server which was installed with the command “npm install -g json-server” and initialized using port 3001 with the command “json-server --watch db.json --port 3001”, The Json file provided must be hosted there and requests are made following the url http://localhost:3001/kittens.
